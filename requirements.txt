@@ -1,0 +1,29 @@
+# AI Wine Expert — Python dependencies
+# Pin major.minor, allow patch updates (~=)
+# Install with: pip install -r requirements.txt
+
+# Data
+pandas~=3.0.2
+numpy~=2.4.4
+scipy~=1.17.1
+
+# Modeling
+scikit-learn~=1.8.0
+xgboost~=3.2.0
+lightgbm~=4.6.0
+joblib~=1.5.3
+
+# Explainability
+shap~=0.52.0
+
+# API
+flask~=3.1.3
+flask-cors~=5.0.0
+
+# Visualization (EDA notebook only, not required by Flask API)
+matplotlib~=3.10.8
+seaborn~=0.13.2
+
+# Notebook tooling (dev only, not required in production)
+nbformat~=5.10.4
+jupyter~=1.1.0
