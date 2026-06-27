@@ -1,4 +1,4 @@
-# AI Wine Expert
+# AI Wine Expert 🍷🥂
 
 A wine quality prediction and recommendation app with a Flask API backend and a React/Vite frontend.
 
