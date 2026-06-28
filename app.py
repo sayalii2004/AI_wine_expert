@@ -158,6 +158,13 @@ def handle_errors(f):
 # Routes
 # ---------------------------------------------------------------------------
 
+@app.get("/")
+def home():
+    return {
+        "message": "AI Wine Expert Backend is running",
+        "health": "/api/health"
+    }
+
 @app.get("/api/health")
 def health():
     return jsonify({
